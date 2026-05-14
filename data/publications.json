@@ -1,0 +1,1284 @@
+{
+  "publications": [
+    {
+      "id": "p1",
+      "title": "EvolClustDB: exploring eukaryotic gene clusters with evolutionarily conserved genomic neighbourhoods",
+      "venue": "Journal of Molecular Biology",
+      "year": 2023,
+      "coauthors": [
+        "Marcet-Houben, Marina",
+        "Collado-Cala, Ismael",
+        "Fuentes-Palacios, Diego",
+        "Gómez, Alicia D",
+        "Molina, Manuel",
+        "Garisoain-Zafra, Andres",
+        "Chorostecki, Uciel",
+        "Gabaldon, Toni"
+      ],
+      "doi": "https://doi.org/10.1016/j.jmb.2023.168013",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022283623000694?via%3Dihub"
+    },
+    {
+      "id": "p2",
+      "title": "Candidemia among Coronavirus Disease 2019 patients in Turkey admitted to intensive care units: a retrospective multicenter study",
+      "venue": "Open forum infectious diseases",
+      "year": 2022,
+      "coauthors": [
+        "Arastehfar, Amir",
+        "Ünal, Nevzat",
+        "Hoşbul, Tuğrul",
+        "Alper Özarslan, Muhammed",
+        "Sultan Karakoyun, Ayşe",
+        "Polat, Furkan",
+        "Fuentes-Palacios, Diego",
+        "Gümral, Ramazan",
+        "Turunç, Tuba",
+        "Daneshnia, Farnaz",
+        "Perlin, David S",
+        "Lass-Flörl, Cornelia",
+        "Gabaldon, Toni",
+        "Ilkit, Macit",
+        "Nguyen, M Hong"
+      ],
+      "doi": "https://doi.org/10.1093/ofid/ofac078",
+      "url": "https://academic.oup.com/ofid/article/9/4/ofac078/6527947"
+    },
+    {
+      "id": "p3",
+      "title": "PhylomeDB V5: an expanding repository for genome-wide catalogues of annotated gene phylogenies",
+      "venue": "Nucleic acids research",
+      "year": 2022,
+      "coauthors": [
+        "Fuentes-Palacios, Diego",
+        "Molina, Manuel",
+        "Chorostecki, Uciel",
+        "Capella-Gutiérrez, Salvador",
+        "Marcet-Houben, Marina",
+        "Gabaldon, Toni"
+      ],
+      "doi": "https://doi.org/10.1093/nar/gkab966",
+      "url": "https://academic.oup.com/nar/article/50/D1/D1062/6414570"
+    },
+    {
+      "id": "p4",
+      "title": "Chromosome-level assembly, annotation and phylome of Pelobates cultripes, the western spadefoot toad",
+      "venue": "DNA Research",
+      "year": 2022,
+      "coauthors": [
+        "Liedtke, Hans Christoph",
+        "Cruz, Fernando",
+        "Gomez-Garrido, Jessica",
+        "Fuentes-Palacios, Diego",
+        "Marcet-Houben, Marina",
+        "Gut, Marta",
+        "Alioto, Tyler",
+        "Gabaldon, Toni",
+        "Gomez-Mestre, Ivan"
+      ],
+      "doi": "https://doi.org/10.1093/dnares/dsac013",
+      "url": "https://academic.oup.com/dnaresearch/article/29/3/dsac013/6588074"
+    },
+    {
+      "id": "p5",
+      "title": "Karyon: a computational framework for the diagnosis of hybrids, aneuploids, and other nonstandard architectures in genome assemblies",
+      "venue": "GigaScience",
+      "year": 2022,
+      "coauthors": [
+        "Naranjo-Ortiz, Miguel A",
+        "Molina, Manu",
+        "Fuentes-Palacios, Diego",
+        "Mixão, Verónica",
+        "Gabaldon, Toni"
+      ],
+      "doi": "https://doi.org/10.1093/gigascience/giac088",
+      "url": "https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac088/6751106"
+    },
+    {
+      "id": "p6",
+      "title": "Whole-genome sequencing confirms a persistent candidaemia clonal outbreak due to multidrug-resistant Candida parapsilosis",
+      "venue": "Journal of Antimicrobial Chemotherapy",
+      "year": 2023,
+      "coauthors": [
+        "Daneshnia, Farnaz",
+        "Hilmioğlu-Polat, Süleyha",
+        "Ilkit, Macit",
+        "Fuentes-Palacios, Diego",
+        "Lombardi, Lisa",
+        "Binder, Ulrike",
+        "Scheler, Jakob",
+        "Hagen, Ferry",
+        "Mansour, Michael K",
+        "Butler, Geraldine",
+        "Lass-Flörl, Cornelia",
+        "Gabaldon, Toni",
+        "Arastehfar, Amir"
+      ],
+      "doi": "https://doi.org/10.1093/jac/dkad112",
+      "url": "https://academic.oup.com/jac/article/78/6/1488/7143692"
+    },
+    {
+      "id": "p7",
+      "title": "Overlooked Candida glabrata petites are echinocandin tolerant, induce host inflammatory responses, and display poor in vivo fitness",
+      "venue": "Mbio",
+      "year": 2023,
+      "coauthors": [
+        "Arastehfar, Amir",
+        "Daneshnia, Farnaz",
+        "Hovhannisyan, Hrant",
+        "Fuentes-Palacios, Diego",
+        "Cabrera, Nathaly",
+        "Quinteros, Christopher",
+        "Ilkit, Macit",
+        "Ünal, Nevzat",
+        "Hilmioğlu-Polat, Suleyha",
+        "Jabeen, Kauser",
+        "Zaka, Sadaf",
+        "Desai, Jigar V",
+        "Lass-Flörl, Cornelia",
+        "Shor, Erika",
+        "Gabaldon, Toni",
+        "Perlin, David S"
+      ],
+      "doi": "https://doi.org/10.1128/mbio.01180-23",
+      "url": "https://journals.asm.org/doi/10.1128/mbio.01180-23"
+    },
+    {
+      "id": "p8",
+      "title": "Quest for Orthologs in the Era of Biodiversity Genomics",
+      "venue": "Genome Biology and Evolution",
+      "year": 2024,
+      "coauthors": [
+        "Langschied, Felix",
+        "Bordin, Nicola",
+        "Cosentino, Salvatore",
+        "Fuentes-Palacios, Diego",
+        "Glover, Natasha",
+        "Hiller, Michael",
+        "Hu, Yanhui",
+        "Huerta-Cepas, Jaime",
+        "Coelho, Luis Pedro",
+        "Iwasaki, Wataru",
+        "Majidian, Sina",
+        "Manzano-Morales, Saioa",
+        "Persson, Emma",
+        "Richards, Thomas A",
+        "Gabaldon, Toni",
+        "Sonnhammer, Erik",
+        "Thomas, Paul D",
+        "Dessimoz, Christophe",
+        "Ebersberger, Ingo"
+      ],
+      "doi": "https://doi.org/10.1093/gbe/evae224",
+      "url": "https://academic.oup.com/gbe/article/16/10/evae224/7822254"
+    },
+    {
+      "id": "p9",
+      "title": "New developments for the Quest for Orthologs benchmark service",
+      "venue": "NAR Genomics and Bioinformatics",
+      "year": 2024,
+      "coauthors": [
+        "Altenhoff, Adrian",
+        "Nevers, Yannis",
+        "Tran, Vinh",
+        "Jyothi, Dushyanth",
+        "Martin, Maria",
+        "Cosentino, Salvatore",
+        "Majidian, Sina",
+        "Marcet-Houben, Marina",
+        "Fuentes-Palacios, Diego",
+        "Persson, Emma",
+        "Thomas Walsh",
+        "Lecompte, Odile",
+        "Gabaldon, Toni",
+        "Kelly, Steven",
+        "Hu, Yanhui",
+        "Iwasaki, Wataru",
+        "Capella-Gutierrez, Salvador",
+        "Dessimoz, Christophe",
+        "Thomas, Paul D",
+        "Ebersberger, Ingo",
+        "Sonnhammer, Erik"
+      ],
+      "doi": "https://doi.org/10.1093/nargab/lqae167",
+      "url": "https://academic.oup.com/nargab/article/6/4/lqae167/7921053"
+    },
+    {
+      "id": "p10",
+      "title": "High genomic and phenotypic diversity among Candida dubliniensis isolates from the oral cavity of persons living with HIV",
+      "venue": "bioRxiv",
+      "year": 2025,
+      "coauthors": [
+        "Dubois, Verónica",
+        "Marcet-Houben, Marina",
+        "Fuentes-Palacios, Diego",
+        "Ksiezopolska, Ewa",
+        "Gliosca, Laura A",
+        "Gabaldon, Toni"
+      ],
+      "doi": "https://doi.org/10.1101/2025.10.23.684142",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.23.684142v1"
+    },
+    {
+      "id": "p11",
+      "title": "MeTAline: enabling reproducible and scalable metagenomic analyses",
+      "venue": "NAR Genomics and Bioinformatics",
+      "year": 2025,
+      "coauthors": [
+        "Khannous-Lleiffe, Olfat",
+        "Fuentes-Palacios, Diego",
+        "Májér, Dániel",
+        "Gabaldon, Toni"
+      ],
+      "doi": "https://doi.org/10.1093/nargab/lqaf158",
+      "url": "https://academic.oup.com/nargab/article/7/4/lqaf158/8340158"
+    },
+    {
+      "id": "p12",
+      "title": "Profound cell wall remodeling in Candida parapsilosis during systemic infection confers simultaneous tolerance to echinocandins and host immunity",
+      "venue": "Microbiology spectrum",
+      "year": 2026,
+      "coauthors": [
+        "Daneshnia, Farnaz",
+        "Cai, Liuyang",
+        "Gunasekaran, Deepika",
+        "Gautam, Isha",
+        "Perry, Austin M",
+        "Mosharaf Ghahfarokhy, Pegah",
+        "Ebadati, Arefeh",
+        "Munoz, Julieta",
+        "Padilla, Dorian",
+        "Hilmioglu-Polat, Süleyha"
+      ],
+      "doi": "https://doi.org/10.1128/spectrum.03043-25",
+      "url": "https://journals.asm.org/doi/10.1128/spectrum.03043-25"
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "me",
+        "label": "Diego Fuentes-Palacios",
+        "type": "author"
+      },
+      {
+        "id": "p1",
+        "label": "EvolClustDB (JMB 2023)",
+        "type": "paper"
+      },
+      {
+        "id": "p2",
+        "label": "Candidemia COVID-19 (OFID 2022)",
+        "type": "paper"
+      },
+      {
+        "id": "p3",
+        "label": "PhylomeDB V5 (NAR 2022)",
+        "type": "paper"
+      },
+      {
+        "id": "p4",
+        "label": "Pelobates cultripes (DNA Res 2022)",
+        "type": "paper"
+      },
+      {
+        "id": "p5",
+        "label": "Karyon (GigaSci 2022)",
+        "type": "paper"
+      },
+      {
+        "id": "p6",
+        "label": "Candida parapsilosis outbreak (JAC 2023)",
+        "type": "paper"
+      },
+      {
+        "id": "p7",
+        "label": "C. glabrata petites (mBio 2023)",
+        "type": "paper"
+      },
+      {
+        "id": "p8",
+        "label": "QfO biodiversity (GBE 2024)",
+        "type": "paper"
+      },
+      {
+        "id": "p9",
+        "label": "QfO benchmark (NAR-GAB 2024)",
+        "type": "paper"
+      },
+      {
+        "id": "p10",
+        "label": "C. dubliniensis diversity (bioRxiv 2025)",
+        "type": "paper"
+      },
+      {
+        "id": "p11",
+        "label": "MeTAline (NAR-GAB 2025)",
+        "type": "paper"
+      },
+      {
+        "id": "p12",
+        "label": "C. parapsilosis remodeling (Microbiol. Spectrum 2026)",
+        "type": "paper"
+      },
+      {
+        "id": "c1",
+        "label": "Marcet-Houben, Marina",
+        "type": "coauthor"
+      },
+      {
+        "id": "c2",
+        "label": "Collado-Cala, Ismael",
+        "type": "coauthor"
+      },
+      {
+        "id": "c3",
+        "label": "Gómez, Alicia D",
+        "type": "coauthor"
+      },
+      {
+        "id": "c4",
+        "label": "Molina, Manuel",
+        "type": "coauthor"
+      },
+      {
+        "id": "c5",
+        "label": "Garisoain-Zafra, Andres",
+        "type": "coauthor"
+      },
+      {
+        "id": "c6",
+        "label": "Chorostecki, Uciel",
+        "type": "coauthor"
+      },
+      {
+        "id": "c7",
+        "label": "Gabaldon, Toni",
+        "type": "coauthor"
+      },
+      {
+        "id": "c8",
+        "label": "Arastehfar, Amir",
+        "type": "coauthor"
+      },
+      {
+        "id": "c9",
+        "label": "Ünal, Nevzat",
+        "type": "coauthor"
+      },
+      {
+        "id": "c10",
+        "label": "Hoşbul, Tuğrul",
+        "type": "coauthor"
+      },
+      {
+        "id": "c11",
+        "label": "Alper Özarslan, Muhammed",
+        "type": "coauthor"
+      },
+      {
+        "id": "c12",
+        "label": "Sultan Karakoyun, Ayşe",
+        "type": "coauthor"
+      },
+      {
+        "id": "c13",
+        "label": "Polat, Furkan",
+        "type": "coauthor"
+      },
+      {
+        "id": "c14",
+        "label": "Gümral, Ramazan",
+        "type": "coauthor"
+      },
+      {
+        "id": "c15",
+        "label": "Turunç, Tuba",
+        "type": "coauthor"
+      },
+      {
+        "id": "c16",
+        "label": "Daneshnia, Farnaz",
+        "type": "coauthor"
+      },
+      {
+        "id": "c17",
+        "label": "Perlin, David S",
+        "type": "coauthor"
+      },
+      {
+        "id": "c18",
+        "label": "Lass-Flörl, Cornelia",
+        "type": "coauthor"
+      },
+      {
+        "id": "c19",
+        "label": "Ilkit, Macit",
+        "type": "coauthor"
+      },
+      {
+        "id": "c20",
+        "label": "Nguyen, M Hong",
+        "type": "coauthor"
+      },
+      {
+        "id": "c21",
+        "label": "Capella-Gutiérrez, Salvador",
+        "type": "coauthor"
+      },
+      {
+        "id": "c22",
+        "label": "Liedtke, Hans Christoph",
+        "type": "coauthor"
+      },
+      {
+        "id": "c23",
+        "label": "Cruz, Fernando",
+        "type": "coauthor"
+      },
+      {
+        "id": "c24",
+        "label": "Gomez-Garrido, Jessica",
+        "type": "coauthor"
+      },
+      {
+        "id": "c25",
+        "label": "Gut, Marta",
+        "type": "coauthor"
+      },
+      {
+        "id": "c26",
+        "label": "Alioto, Tyler",
+        "type": "coauthor"
+      },
+      {
+        "id": "c27",
+        "label": "Gomez-Mestre, Ivan",
+        "type": "coauthor"
+      },
+      {
+        "id": "c28",
+        "label": "Naranjo-Ortiz, Miguel A",
+        "type": "coauthor"
+      },
+      {
+        "id": "c29",
+        "label": "Molina, Manu",
+        "type": "coauthor"
+      },
+      {
+        "id": "c30",
+        "label": "Mixão, Verónica",
+        "type": "coauthor"
+      },
+      {
+        "id": "c31",
+        "label": "Hilmioğlu-Polat, Süleyha",
+        "type": "coauthor"
+      },
+      {
+        "id": "c32",
+        "label": "Lombardi, Lisa",
+        "type": "coauthor"
+      },
+      {
+        "id": "c33",
+        "label": "Binder, Ulrike",
+        "type": "coauthor"
+      },
+      {
+        "id": "c34",
+        "label": "Scheler, Jakob",
+        "type": "coauthor"
+      },
+      {
+        "id": "c35",
+        "label": "Hagen, Ferry",
+        "type": "coauthor"
+      },
+      {
+        "id": "c36",
+        "label": "Mansour, Michael K",
+        "type": "coauthor"
+      },
+      {
+        "id": "c37",
+        "label": "Butler, Geraldine",
+        "type": "coauthor"
+      },
+      {
+        "id": "c38",
+        "label": "Hovhannisyan, Hrant",
+        "type": "coauthor"
+      },
+      {
+        "id": "c39",
+        "label": "Cabrera, Nathaly",
+        "type": "coauthor"
+      },
+      {
+        "id": "c40",
+        "label": "Quinteros, Christopher",
+        "type": "coauthor"
+      },
+      {
+        "id": "c41",
+        "label": "Hilmioğlu-Polat, Suleyha",
+        "type": "coauthor"
+      },
+      {
+        "id": "c42",
+        "label": "Jabeen, Kauser",
+        "type": "coauthor"
+      },
+      {
+        "id": "c43",
+        "label": "Zaka, Sadaf",
+        "type": "coauthor"
+      },
+      {
+        "id": "c44",
+        "label": "Desai, Jigar V",
+        "type": "coauthor"
+      },
+      {
+        "id": "c45",
+        "label": "Shor, Erika",
+        "type": "coauthor"
+      },
+      {
+        "id": "c46",
+        "label": "Langschied, Felix",
+        "type": "coauthor"
+      },
+      {
+        "id": "c47",
+        "label": "Bordin, Nicola",
+        "type": "coauthor"
+      },
+      {
+        "id": "c48",
+        "label": "Cosentino, Salvatore",
+        "type": "coauthor"
+      },
+      {
+        "id": "c49",
+        "label": "Glover, Natasha",
+        "type": "coauthor"
+      },
+      {
+        "id": "c50",
+        "label": "Hiller, Michael",
+        "type": "coauthor"
+      },
+      {
+        "id": "c51",
+        "label": "Hu, Yanhui",
+        "type": "coauthor"
+      },
+      {
+        "id": "c52",
+        "label": "Huerta-Cepas, Jaime",
+        "type": "coauthor"
+      },
+      {
+        "id": "c53",
+        "label": "Coelho, Luis Pedro",
+        "type": "coauthor"
+      },
+      {
+        "id": "c54",
+        "label": "Iwasaki, Wataru",
+        "type": "coauthor"
+      },
+      {
+        "id": "c55",
+        "label": "Majidian, Sina",
+        "type": "coauthor"
+      },
+      {
+        "id": "c56",
+        "label": "Manzano-Morales, Saioa",
+        "type": "coauthor"
+      },
+      {
+        "id": "c57",
+        "label": "Persson, Emma",
+        "type": "coauthor"
+      },
+      {
+        "id": "c58",
+        "label": "Richards, Thomas A",
+        "type": "coauthor"
+      },
+      {
+        "id": "c59",
+        "label": "Sonnhammer, Erik",
+        "type": "coauthor"
+      },
+      {
+        "id": "c60",
+        "label": "Thomas, Paul D",
+        "type": "coauthor"
+      },
+      {
+        "id": "c61",
+        "label": "Dessimoz, Christophe",
+        "type": "coauthor"
+      },
+      {
+        "id": "c62",
+        "label": "Ebersberger, Ingo",
+        "type": "coauthor"
+      },
+      {
+        "id": "c63",
+        "label": "Altenhoff, Adrian",
+        "type": "coauthor"
+      },
+      {
+        "id": "c64",
+        "label": "Nevers, Yannis",
+        "type": "coauthor"
+      },
+      {
+        "id": "c65",
+        "label": "Tran, Vinh",
+        "type": "coauthor"
+      },
+      {
+        "id": "c66",
+        "label": "Jyothi, Dushyanth",
+        "type": "coauthor"
+      },
+      {
+        "id": "c67",
+        "label": "Martin, Maria",
+        "type": "coauthor"
+      },
+      {
+        "id": "c68",
+        "label": "Thomas Walsh",
+        "type": "coauthor"
+      },
+      {
+        "id": "c69",
+        "label": "Lecompte, Odile",
+        "type": "coauthor"
+      },
+      {
+        "id": "c70",
+        "label": "Kelly, Steven",
+        "type": "coauthor"
+      },
+      {
+        "id": "c71",
+        "label": "Capella-Gutierrez, Salvador",
+        "type": "coauthor"
+      },
+      {
+        "id": "c72",
+        "label": "Dubois, Verónica",
+        "type": "coauthor"
+      },
+      {
+        "id": "c73",
+        "label": "Ksiezopolska, Ewa",
+        "type": "coauthor"
+      },
+      {
+        "id": "c74",
+        "label": "Gliosca, Laura A",
+        "type": "coauthor"
+      },
+      {
+        "id": "c75",
+        "label": "Khannous-Lleiffe, Olfat",
+        "type": "coauthor"
+      },
+      {
+        "id": "c76",
+        "label": "Májér, Dániel",
+        "type": "coauthor"
+      },
+      {
+        "id": "c77",
+        "label": "Cai, Liuyang",
+        "type": "coauthor"
+      },
+      {
+        "id": "c78",
+        "label": "Gunasekaran, Deepika",
+        "type": "coauthor"
+      },
+      {
+        "id": "c79",
+        "label": "Gautam, Isha",
+        "type": "coauthor"
+      },
+      {
+        "id": "c80",
+        "label": "Perry, Austin M",
+        "type": "coauthor"
+      },
+      {
+        "id": "c81",
+        "label": "Mosharaf Ghahfarokhy, Pegah",
+        "type": "coauthor"
+      },
+      {
+        "id": "c82",
+        "label": "Ebadati, Arefeh",
+        "type": "coauthor"
+      },
+      {
+        "id": "c83",
+        "label": "Munoz, Julieta",
+        "type": "coauthor"
+      },
+      {
+        "id": "c84",
+        "label": "Padilla, Dorian",
+        "type": "coauthor"
+      },
+      {
+        "id": "c85",
+        "label": "Hilmioglu-Polat, Süleyha",
+        "type": "coauthor"
+      }
+    ],
+    "edges": [
+      {
+        "source": "me",
+        "target": "p1"
+      },
+      {
+        "source": "me",
+        "target": "p2"
+      },
+      {
+        "source": "me",
+        "target": "p3"
+      },
+      {
+        "source": "me",
+        "target": "p4"
+      },
+      {
+        "source": "me",
+        "target": "p5"
+      },
+      {
+        "source": "me",
+        "target": "p6"
+      },
+      {
+        "source": "me",
+        "target": "p7"
+      },
+      {
+        "source": "me",
+        "target": "p8"
+      },
+      {
+        "source": "me",
+        "target": "p9"
+      },
+      {
+        "source": "me",
+        "target": "p10"
+      },
+      {
+        "source": "me",
+        "target": "p11"
+      },
+      {
+        "source": "me",
+        "target": "p12"
+      },
+      {
+        "source": "c1",
+        "target": "p1"
+      },
+      {
+        "source": "c2",
+        "target": "p1"
+      },
+      {
+        "source": "c3",
+        "target": "p1"
+      },
+      {
+        "source": "c4",
+        "target": "p1"
+      },
+      {
+        "source": "c5",
+        "target": "p1"
+      },
+      {
+        "source": "c6",
+        "target": "p1"
+      },
+      {
+        "source": "c7",
+        "target": "p1"
+      },
+      {
+        "source": "c8",
+        "target": "p2"
+      },
+      {
+        "source": "c9",
+        "target": "p2"
+      },
+      {
+        "source": "c10",
+        "target": "p2"
+      },
+      {
+        "source": "c11",
+        "target": "p2"
+      },
+      {
+        "source": "c12",
+        "target": "p2"
+      },
+      {
+        "source": "c13",
+        "target": "p2"
+      },
+      {
+        "source": "c14",
+        "target": "p2"
+      },
+      {
+        "source": "c15",
+        "target": "p2"
+      },
+      {
+        "source": "c16",
+        "target": "p2"
+      },
+      {
+        "source": "c17",
+        "target": "p2"
+      },
+      {
+        "source": "c18",
+        "target": "p2"
+      },
+      {
+        "source": "c7",
+        "target": "p2"
+      },
+      {
+        "source": "c19",
+        "target": "p2"
+      },
+      {
+        "source": "c20",
+        "target": "p2"
+      },
+      {
+        "source": "c4",
+        "target": "p3"
+      },
+      {
+        "source": "c6",
+        "target": "p3"
+      },
+      {
+        "source": "c21",
+        "target": "p3"
+      },
+      {
+        "source": "c1",
+        "target": "p3"
+      },
+      {
+        "source": "c7",
+        "target": "p3"
+      },
+      {
+        "source": "c22",
+        "target": "p4"
+      },
+      {
+        "source": "c23",
+        "target": "p4"
+      },
+      {
+        "source": "c24",
+        "target": "p4"
+      },
+      {
+        "source": "c1",
+        "target": "p4"
+      },
+      {
+        "source": "c25",
+        "target": "p4"
+      },
+      {
+        "source": "c26",
+        "target": "p4"
+      },
+      {
+        "source": "c7",
+        "target": "p4"
+      },
+      {
+        "source": "c27",
+        "target": "p4"
+      },
+      {
+        "source": "c28",
+        "target": "p5"
+      },
+      {
+        "source": "c29",
+        "target": "p5"
+      },
+      {
+        "source": "c30",
+        "target": "p5"
+      },
+      {
+        "source": "c7",
+        "target": "p5"
+      },
+      {
+        "source": "c16",
+        "target": "p6"
+      },
+      {
+        "source": "c31",
+        "target": "p6"
+      },
+      {
+        "source": "c19",
+        "target": "p6"
+      },
+      {
+        "source": "c32",
+        "target": "p6"
+      },
+      {
+        "source": "c33",
+        "target": "p6"
+      },
+      {
+        "source": "c34",
+        "target": "p6"
+      },
+      {
+        "source": "c35",
+        "target": "p6"
+      },
+      {
+        "source": "c36",
+        "target": "p6"
+      },
+      {
+        "source": "c37",
+        "target": "p6"
+      },
+      {
+        "source": "c18",
+        "target": "p6"
+      },
+      {
+        "source": "c7",
+        "target": "p6"
+      },
+      {
+        "source": "c8",
+        "target": "p6"
+      },
+      {
+        "source": "c8",
+        "target": "p7"
+      },
+      {
+        "source": "c16",
+        "target": "p7"
+      },
+      {
+        "source": "c38",
+        "target": "p7"
+      },
+      {
+        "source": "c39",
+        "target": "p7"
+      },
+      {
+        "source": "c40",
+        "target": "p7"
+      },
+      {
+        "source": "c19",
+        "target": "p7"
+      },
+      {
+        "source": "c9",
+        "target": "p7"
+      },
+      {
+        "source": "c41",
+        "target": "p7"
+      },
+      {
+        "source": "c42",
+        "target": "p7"
+      },
+      {
+        "source": "c43",
+        "target": "p7"
+      },
+      {
+        "source": "c44",
+        "target": "p7"
+      },
+      {
+        "source": "c18",
+        "target": "p7"
+      },
+      {
+        "source": "c45",
+        "target": "p7"
+      },
+      {
+        "source": "c7",
+        "target": "p7"
+      },
+      {
+        "source": "c17",
+        "target": "p7"
+      },
+      {
+        "source": "c46",
+        "target": "p8"
+      },
+      {
+        "source": "c47",
+        "target": "p8"
+      },
+      {
+        "source": "c48",
+        "target": "p8"
+      },
+      {
+        "source": "c49",
+        "target": "p8"
+      },
+      {
+        "source": "c50",
+        "target": "p8"
+      },
+      {
+        "source": "c51",
+        "target": "p8"
+      },
+      {
+        "source": "c52",
+        "target": "p8"
+      },
+      {
+        "source": "c53",
+        "target": "p8"
+      },
+      {
+        "source": "c54",
+        "target": "p8"
+      },
+      {
+        "source": "c55",
+        "target": "p8"
+      },
+      {
+        "source": "c56",
+        "target": "p8"
+      },
+      {
+        "source": "c57",
+        "target": "p8"
+      },
+      {
+        "source": "c58",
+        "target": "p8"
+      },
+      {
+        "source": "c7",
+        "target": "p8"
+      },
+      {
+        "source": "c59",
+        "target": "p8"
+      },
+      {
+        "source": "c60",
+        "target": "p8"
+      },
+      {
+        "source": "c61",
+        "target": "p8"
+      },
+      {
+        "source": "c62",
+        "target": "p8"
+      },
+      {
+        "source": "c63",
+        "target": "p9"
+      },
+      {
+        "source": "c64",
+        "target": "p9"
+      },
+      {
+        "source": "c65",
+        "target": "p9"
+      },
+      {
+        "source": "c66",
+        "target": "p9"
+      },
+      {
+        "source": "c67",
+        "target": "p9"
+      },
+      {
+        "source": "c48",
+        "target": "p9"
+      },
+      {
+        "source": "c55",
+        "target": "p9"
+      },
+      {
+        "source": "c1",
+        "target": "p9"
+      },
+      {
+        "source": "c57",
+        "target": "p9"
+      },
+      {
+        "source": "c68",
+        "target": "p9"
+      },
+      {
+        "source": "c69",
+        "target": "p9"
+      },
+      {
+        "source": "c7",
+        "target": "p9"
+      },
+      {
+        "source": "c70",
+        "target": "p9"
+      },
+      {
+        "source": "c51",
+        "target": "p9"
+      },
+      {
+        "source": "c54",
+        "target": "p9"
+      },
+      {
+        "source": "c71",
+        "target": "p9"
+      },
+      {
+        "source": "c61",
+        "target": "p9"
+      },
+      {
+        "source": "c60",
+        "target": "p9"
+      },
+      {
+        "source": "c62",
+        "target": "p9"
+      },
+      {
+        "source": "c59",
+        "target": "p9"
+      },
+      {
+        "source": "c72",
+        "target": "p10"
+      },
+      {
+        "source": "c1",
+        "target": "p10"
+      },
+      {
+        "source": "c73",
+        "target": "p10"
+      },
+      {
+        "source": "c74",
+        "target": "p10"
+      },
+      {
+        "source": "c7",
+        "target": "p10"
+      },
+      {
+        "source": "c75",
+        "target": "p11"
+      },
+      {
+        "source": "c76",
+        "target": "p11"
+      },
+      {
+        "source": "c7",
+        "target": "p11"
+      },
+      {
+        "source": "c16",
+        "target": "p12"
+      },
+      {
+        "source": "c77",
+        "target": "p12"
+      },
+      {
+        "source": "c78",
+        "target": "p12"
+      },
+      {
+        "source": "c79",
+        "target": "p12"
+      },
+      {
+        "source": "c80",
+        "target": "p12"
+      },
+      {
+        "source": "c81",
+        "target": "p12"
+      },
+      {
+        "source": "c82",
+        "target": "p12"
+      },
+      {
+        "source": "c83",
+        "target": "p12"
+      },
+      {
+        "source": "c84",
+        "target": "p12"
+      },
+      {
+        "source": "c85",
+        "target": "p12"
+      }
+    ]
+  }
+}

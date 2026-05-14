@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Diego Fuentes Palacios — Bioinformatician. GWAS & PRS, genomics workflows, clinical NLP, and more." />
+  <title>Diego Fuentes Palacios · Bioinformatician</title>
+
+  <link rel="canonical" href="https://dfupa.github.io/" />
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Diego Fuentes Palacios · Bioinformatician">
+  <meta property="og:description" content="Bioinformatician by trade based in Barcelona.">
+  <meta property="og:url" content="https://dfupa.github.io/">
+  <meta property="og:image" content="https://dfupa.github.io/assets/img/default.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300..700;1,300..700&display=swap"
+    rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- D3.js -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js" defer></script>
+  <!-- Site script -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- ── Skip link ───────────────────────────────────────────── -->
+  <!--<a href="#main" class="sr-only">Skip to content</a>-->
+
+  <!-- ── Navigation ──────────────────────────────────────────── -->
+  <nav aria-label="Primary navigation">
+    <div class="container nav-inner">
+      <span class="logo">DFP://COGITATOR</span>
+      <ul role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#graph-section">Collabs</a></li>
+        <li><a href="#now">Now</a></li>
+        <li>
+          <a href="mailto:diegofupa@gmail.com" class="btn btn--ghost"
+            style="padding: 0.3rem 0.8rem; font-size: var(--text-xs);">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Main ────────────────────────────────────────────────── -->
+  <main id="main">
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- HERO                                                    -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section id="hero" aria-label="Introduction">
+      <div class="container">
+        <span class="hero-tag">// INITIATING SEQUENCE — DATA STREAM ONLINE //</span>
+
+        <h1 class="hero-name">
+          Diego Fuentes<br>Palacios<span class="cursor"></span>
+        </h1>
+
+        <p class="hero-title">
+          Bioinformatics · Genomics · Neuroscience · Machine & Deep Learning · Workflow & Pipelines Architect
+        </p>
+
+        <p class="hero-sub">
+          Based in Barcelona, Catalonia, ES.<br>
+
+          Bioinformatician by trade based in Barcelona.
+          I enjoy coding as well as trying to simplify and improve reproducibility by using workflow managers and
+          setting up containers. I also experiment with AI-based projects, and sometimes dive into "vibe coding"
+          projects.<br>
+
+          Open to research collaborations and scientific software roles.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#work" class="btn btn--primary">>>> Explore My Work</a>
+          <a href="https://github.com/Dfupa" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=9WWxbrYAAAAJ" target="_blank" rel="noopener noreferrer"
+            class="btn btn--ghost">Scholar</a>
+          <a href="https://orcid.org/0000-0002-9977-6786" target="_blank" rel="noopener noreferrer">ORCID
+            0000-0002-9977-6786</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- ABOUT / OVERVIEW                                        -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 id="about-heading">OVERVIEW</h2>
+
+        <div class="about-grid">
+          <!-- Body text -->
+          <div class="about-body">
+            <p>
+              I'm Diego, a bioinformatician with a background that spans classical and computational genetics,
+              experimental neuroscience, and large-scale genomic data analysis.
+              My academic path started with a BSc in Genetics, shifted into an MSc in Neuroscience
+              where I first encountered the power of computational approaches to complex-disease research,
+              and culminated in an MSc in Bioinformatics where I developed expertise in genome assembly,
+              phylogenomics, metagenomics and reproducible pipeline engineering.
+            </p>
+            <p>
+              Professionally I've contributed to flagship bioinformatics tools and databases at the
+              Barcelona Supercomputing Center (BSC-CNS / Gabaldon Lab) — including
+              <strong>Redundans v2</strong>, <strong>meTAline</strong>, <strong>PhylomeDB v5</strong>,
+              <strong>MeTaPhOrs v2.5</strong>, <strong>Karyon</strong>, <strong>EvolClustDB</strong>, and
+              <strong>CandidaMine</strong>. I care deeply about reproducibility: every workflow
+              I build ships in containers (Docker/Singularity) and is preferably orchestrated with
+              Snakemake or Nextflow.
+            </p>
+            <p>
+              My current focus sits at the intersection of dermatological and rheumatological genomics.
+              Alongside this, I explore clinical NLP — using biomedical text mining to bridge
+              literature and structured clinical data. I'm always looking for
+              interesting collaborations in genomics, clinical AI, and open science.
+            </p>
+          </div>
+
+          <!-- Profile card -->
+          <aside class="profile-card" aria-label="Profile snapshot">
+            <div class="card-title">// PROFILE SNAPSHOT</div>
+            <h3>Diego Fuentes Palacios</h3>
+            <p class="card-subtitle">Bioinformatician &amp; Research Scientist</p>
+
+            <div class="card-section">
+              <div class="card-section-label">Contact &amp; Links</div>
+              <div class="social-links">
+                <a href="https://github.com/Dfupa" target="_blank" rel="noopener noreferrer">github.com/Dfupa</a>
+                <a href="https://www.linkedin.com/in/dfupa" target="_blank"
+                  rel="noopener noreferrer">linkedin.com/in/dfupa</a>
+                <a href="https://scholar.google.com/citations?user=9WWxbrYAAAAJ" target="_blank"
+                  rel="noopener noreferrer">Google Scholar</a>
+                <a href="https://orcid.org/0000-0002-9977-6786" target="_blank" rel="noopener noreferrer">ORCID
+                  0000-0002-9977-6786</a>
+                <span style="font-size:var(--text-xs);color:var(--color-text-faint);">
+                  📍 Barcelona, Catalonia, ES
+                </span>
+              </div>
+            </div>
+
+            <div class="card-section">
+              <div class="card-section-label">Research Domains</div>
+              <div class="tag-list">
+                <span class="tag">Genome Assembly</span>
+                <span class="tag">Metagenomics</span>
+                <span class="tag">Phylogenomics</span>
+                <span class="tag">Machine Learning & Deep Learning</span>
+                <span class="tag">Biomedical Text Mining</span>
+              </div>
+            </div>
+
+            <div class="card-section">
+              <div class="card-section-label">Education</div>
+              <div class="edu-item">
+                <strong>MSc Bioinformatics</strong>
+                Universidad Autónoma de Madrid · 2018–2020
+              </div>
+              <div class="edu-item">
+                <strong>MSc Neuroscience</strong>
+                Universiteit Utrecht · 2015–2017
+              </div>
+              <div class="edu-item">
+                <strong>BSc Genetics</strong>
+                Universitat Autònoma de Barcelona · 2011–2015
+              </div>
+            </div>
+
+            <div class="card-section">
+              <div class="card-section-label">Technical Stack</div>
+              <div class="tag-list">
+                <a class="tag" href="https://github.com/python/cpython" target="_blank" rel="noopener">Python</a>
+                <a class="tag" href="https://github.com/SchedMD/slurm" target="_blank" rel="noopener">Slurm</a>
+                <a class="tag" href="https://github.com/git/git" target="_blank" rel="noopener">Git/GitHub</a>
+                <span class="tag">Bash/Shell</span>
+                <span class="tag">R</span>
+                <span class="tag">Snakemake</span>
+                <span class="tag">Nextflow</span>
+                <span class="tag">Docker</span>
+                <span class="tag">Singularity</span>
+                <span class="tag">SQL</span>
+                <span class="tag">HTML</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </aside>
+        </div><!-- /about-grid -->
+      </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- EXPERIENCE                                              -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section id="experience" aria-labelledby="exp-heading">
+      <div class="container">
+        <h2 id="exp-heading"> EXPERIENCE</h2>
+
+        <div class="experience-list">
+
+
+          <!-- IRB / Biomedical research -->
+          <article class="exp-item">
+            <div class="exp-meta">
+              <span class="exp-dates">2025 – Present</span>
+              <span class="exp-location">Barcelona, ES</span>
+            </div>
+            <div class="exp-content">
+              <h3>Bioinformatician </h3>
+              <div class="exp-org">Institut de Innovació i Investigació Parc Tauli (I3PT) · Rheumatology group (RheIMID)
+              </div>
+              <ul>
+                <li>Developing polygenic risk score (PRS) models through GWAS harmonisation and imputation QC pipelines
+                  SpA and psoriatic arthritis
+                  patient cohorts. The objective was to infer treatment-outcome prediction in
+                  spondyloarthritis, integrating EHR-derived clinical features with genomic data.</li>
+                <li>Prototyping a clinical NLP pipeline (<strong>GenLit</strong>) for biomedical
+                  literature mining — extracting gene–disease associations, variant mentions, and
+                  clinical trial outcomes from PubMed abstracts via transformer-based NER models.</li>
+                <li>Collaborating cross-institutionally with clinical and statistical genetics groups
+                  to co-author manuscripts and share reproducible analysis code.</li>
+              </ul>
+            </div>
+          </article>
+
+
+          <!-- Deloitte -->
+          <article class="exp-item">
+            <div class="exp-meta">
+              <span class="exp-dates">2024 – 2025</span>
+              <span class="exp-location">Barcelona, ES</span>
+            </div>
+            <div class="exp-content">
+              <h3>Specialist — Digital Health &amp; AI</h3>
+              <div class="exp-org">Deloitte Touche Tohmatsu Limited · Technology Strategy &amp; Transformation</div>
+              <ul>
+                Specialist in Genetics, Bioinformatics and AI. Both Functional & Technical consultancy roles as well as
+                project
+                manager.
+                <li>Technical Lead in charge of the initial design of the Master Data and Database structure of the
+                  central node for the project <strong>SIGenES</strong>, Ministerio de Sanidad - SNS (10 months)</li>
+                <li>Project Manager in charge of several subprojects (<strong></strong>postIAM</strong>,
+                  <strong>Demències</strong> i <strong>TAVI</strong>) within the project
+                  <strong>DAIPO</strong> (Digital transformation in Health) for the Hospital Universitari Bellvitge and
+                  the Àrea
+                  Metropolità Sud (Hospital Viladecans & Atenció Primària Delta Sud). 12 months.
+                </li>
+                <li>Specialist consultant for the Sistema Canario de Salud, more specifically regarding the projects
+                  <strong></strong>SIGenES</strong> and <strong>UNICAS</strong>, within a technical office. 4 months.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+
+          <!-- BSC / Gabaldon Lab -->
+          <article class="exp-item">
+            <div class="exp-meta">
+              <span class="exp-dates">2020 – 2024</span>
+              <span class="exp-location">Barcelona, ES</span>
+            </div>
+            <div class="exp-content">
+              <h3>Bioinformatics Research Scientist</h3>
+              <div class="exp-org">Barcelona Supercomputing Center (BSC-CNS) / Institute of Research in Biomedicine
+                (IRB) · Gabaldon Lab</div>
+              <ul>
+                I've worked on database management and development as well as pipeline development and deployment,
+                virtual machine and cluster management and data analysis. I also was the sole admin of our group's
+                Github organization for a while, and I set up the CI/CD pipelines for our flagship tools and databases.
+                <li>Led development and maintenance of <strong>Redundans2</strong>, a modular pipeline
+                  for heterozygous genome assembly, scaffolding, and gap-closing.
+                <li>Designed, developed and deployed the <strong>meTAline</strong> metagenomics workflow
+                  integrating taxonomic profiling (Kraken2) with functional annotation
+                  (HUMAnN3); published in <em></em> (2023).</li>
+                <li>Contributed backend infrastructure and data pipelines for <strong>PhylomeDB v5</strong>,
+                  <strong>MeTaPhOrs 2.5</strong>, <strong>EvolClustDB</strong>, <strong>Karyon</strong>, and
+                  <strong>CandidaMine</strong> — containerised services deployed on the BSC cloud environment.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- SELECTED WORK / PROJECTS                               -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section id="work" aria-labelledby="work-heading">
+      <div class="container">
+        <h2 id="work-heading">SELECTED WORKS<br> // ACCESS GRANTED //</h2>
+
+        <div class="work-grid">
+
+          <!-- Redundans2 -->
+          <article class="work-card">
+            <div class="work-card-header">
+              <span class="work-card-title">Redundans2</span>
+              <span class="work-card-year">Present</span>
+            </div>
+            <div class="work-card-tags">
+              <span class="tag">Genome Assembly</span>
+              <span class="tag">Heterozygous Genomes</span>
+              <span class="tag">Hybrids</span>
+              <span class="tag">Python</span>
+              <span class="tag">Perl</span>
+              <span class="tag">C++</span>
+              <span class="tag">Bioconda</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Singularity</span>
+            </div>
+            <div class="work-card-section">
+              <strong>Problem</strong>
+              Genome assembly can be challenging for organisms with highly variable or repetitive genomes. Standard
+              tools often produce redundant sequences, inflating genome size and complicating downstream analyses such
+              as gene annotation and comparative genomics.
+            </div>
+            <div class="work-card-section">
+              <strong>Approach</strong>
+              Redundans streamlines draft genome assemblies by merging redundant contigs, filling gaps, and improving
+              contiguity—especially for short-read assemblies of highly heterozygous organisms like fungi, plants, and
+              non-model animals with a modular Python workflow and wrapper: redundancy reduction → scaffolding
+              → gap closing.
+            </div>
+            <div class="work-card-section">
+              <strong>Contribution</strong>
+              Lead developer for v2 rewrite; yet to be published. Available through Bioconda.
+              Cointainerised with Singularity for HPC deployment and with Docker images for local use.
+              Adopted and widely used (+177 Github Stars, +2100 bioconda downloads, +300 Docker pulls)
+            </div>
+            <a class="work-card-link" href="https://github.com/Gabaldonlab/redundans" target="_blank"
+              rel="noopener noreferrer">Github</a>
+            <a class="work-card-link" href="https://anaconda.org/channels/bioconda/packages/redundans/overview"
+              target="_blank" rel="noopener noreferrer">Bioconda</a>
+            <a class="work-card-link" href="https://hub.docker.com/r/cgenomics/redundans" target="_blank"
+              rel="noopener noreferrer">DockerHub</a>
+          </article>
+
+          <!-- GenLit / Clinical NLP -->
+          <article class="work-card">
+            <div class="work-card-header">
+              <span class="work-card-title">GenLit</span>
+              <span class="work-card-year">Present</span>
+            </div>
+            <div class="work-card-tags">
+              <span class="tag">Clinical NLP</span>
+              <span class="tag">Python</span>
+              <span class="tag">AI API</span>
+              <span class="tag">HuffinFace2-BioNER</span>
+            </div>
+            <div class="work-card-section">
+              <strong>Problem</strong>
+              PubMed literature grows faster than manual curation can keep up with, thus
+              gene–disease evidence extraction requires scalable automation.
+            </div>
+            <div class="work-card-section">
+              <strong>Approach</strong>
+              Async Python pipeline querying PubMed/ClinVar PMC APIs, applying
+              HuffinFace2-based BioNER for gene/variant/phenotype extraction, and aggregating
+              association evidence per gene–disease pair, with the help of AI API clients (Perplexity, ChatGPT,
+              Gemini...) for literature synthesis.
+            </div>
+            <div class="work-card-section">
+              <strong>Contribution</strong>
+              Original author; for gene panel design and clinical evidence aggregation in rheumatological disease
+              genomics. Ongoing development with plans for open-source release and publication in 2025.
+            </div>
+            <a class="work-card-link" href="https://github.com/Dfupa/Genlit" target="_blank"
+              rel="noopener noreferrer">Github</a>
+          </article>
+
+          <!-- meTAline -->
+          <article class="work-card">
+            <div class="work-card-header">
+              <span class="work-card-title">meTAline</span>
+              <span class="work-card-year">2025</span>
+            </div>
+            <div class="work-card-tags">
+              <span class="tag">Metagenomics</span>
+              <span class="tag">Taxonomic Profiling</span>
+              <span class="tag">Functional Annotation</span>
+              <span class="tag">Snakemake</span>
+              <span class="tag">R</span>
+              <span class="tag">Python</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Singularity</span>
+            </div>
+            <div class="work-card-section">
+              <strong>Problem</strong>
+              Integrating taxonomic profiling with functional annotation in metagenomic studies
+              requires gluing many heterogeneous tools, making reproducibility difficult.
+            </div>
+            <div class="work-card-section">
+              <strong>Approach</strong>
+              End-to-end Snakemake workflow: QC → host depletion → Kraken2 taxonomy →
+              HUMAnN3 functional profiling → KRONA visualization → aggregate R statistics (Alpha-diversity).
+            </div>
+            <div class="work-card-section">
+              <strong>Contribution</strong>
+              Co-author and lead code developer; published in <em>NAR Genomics and Bioinformatics</em> (2025). Fully
+              containerised with Singularity for HPC deployment and with Docker images for local use (+1700 Docker
+              pulls).
+            </div>
+            <a class="work-card-link" href="https://doi.org/10.1093/nargab/lqaf158" target="_blank"
+              rel="noopener noreferrer">Paper</a>
+            <a class="work-card-link" href="https://github.com/Gabaldonlab/meTAline" target="_blank"
+              rel="noopener noreferrer">Github</a>
+            <a class="work-card-link" href="https://hub.docker.com/r/cgenomics/metaline" target="_blank"
+              rel="noopener noreferrer">DockerHub</a>
+          </article>
+
+          <!-- CandidaMine -->
+          <article class="work-card">
+            <div class="work-card-header">
+              <span class="work-card-title">CandidaMine</span>
+              <span class="work-card-year">2023</span>
+            </div>
+            <div class="work-card-tags">
+              <span class="tag">Database</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Singularity</span>
+            </div>
+            <div class="work-card-section">
+              <strong>Problem</strong>
+              Community resources for the
+              <em>Candida</em> pathogens' biology lacked integrated, queryable databases.
+            </div>
+            <div class="work-card-section">
+              <strong>Approach</strong>
+              Develop a genome and transcriptome warehouse for the <em>Candida</em> pathogens, integrating genomic data
+              with functional annotations and expression datasets, and deploy it as a containerised service on the BSC
+              cloud environment.
+            </div>
+            <div class="work-card-section">
+              <strong>Contribution</strong>
+              Unit testing and front end designer of the CandidaMine database.
+            </div>
+            <a class="work-card-link" href="https://candidamine.org/" target="_blank"
+              rel="noopener noreferrer">candidamine.org ↗</a>
+          </article>
+
+          <!-- EvolClustDB -->
+          <article class="work-card">
+            <div class="work-card-header">
+              <span class="work-card-title">EvolClustDB</span>
+              <span class="work-card-year">2023</span>
+            </div>
+            <div class="work-card-tags">
+              <span class="tag">Phylogenomics</span>
+              <span class="tag">Gene neighbourhoods</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Python</span>
+              <span class="tag">Docker</span>
+              <span class="tag">HTML</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Uvicorn</span>
+            </div>
+            <div class="work-card-section">
+              <strong>Problem</strong>
+              Community resources for evolved gene neighbourhoods lacked integrated, queryable databases.
+            </div>
+            <div class="work-card-section">
+              <strong>Approach</strong>
+              Pipeline and schema contributions, automated data loading, interpretable visualization of gene
+              neighbourhoods,
+              versioned container images, and REST API endpoints.
+            </div>
+            <div class="work-card-section">
+              <strong>Contribution</strong>
+              Co-author on EvolClustDB <em>Journal of Molecular Biology</em> (2023) publication; contributed database
+              schema design, data engineering,
+              containerisation, and deployment.
+            </div>
+            <a class="work-card-link" href="https://doi.org/10.1016/j.jmb.2023.168013" target="_blank"
+              rel="noopener noreferrer">Paper</a>
+            <a class="work-card-link" href="https://evolclustdb.org" target="_blank"
+              rel="noopener noreferrer">evolclustdb.org ↗</a>
+          </article>
+
+          <!-- Karyon -->
+          <article class="work-card">
+            <div class="work-card-header">
+              <span class="work-card-title">Karyon</span>
+              <span class="work-card-year">2022</span>
+            </div>
+            <div class="work-card-tags">
+              <span class="tag">Genome Assembly</span>
+              <span class="tag">Heterozygosity</span>
+              <span class="tag">Ploidy Analysis</span>
+              <span class="tag">Python</span>
+              <span class="tag">Docker</span>
+            </div>
+            <div class="work-card-section">
+              <strong>Problem</strong>
+              Genome assemblies from highly heterozygous or complex organisms can be misleading due to redundancy,
+              contamination, or unusual ploidy, complicating downstream analyses.
+            </div>
+            <div class="work-card-section">
+              <strong>Approach</strong>
+              Provides diagnostic analyses and visualizations to identify assembly issues such as heterozygosity, ploidy
+              variation, repeats, and contamination, guiding informed assembly strategies.
+            </div>
+            <div class="work-card-section">
+              <strong>Contribution</strong>
+              Co-author on Karyon <em>GigaScience</em> (2022) publication; contributed to development, testing, and
+              visualization modules to help researchers understand and improve complex genome assemblies.
+            </div>
+            <a class="work-card-link" href="https://doi.org/10.1093/gigascience/giac088" target="_blank"
+              rel="noopener noreferrer">Paper</a>
+            <a class="work-card-link" href="https://github.com/Gabaldonlab/karyon" target="_blank"
+              rel="noopener noreferrer">GitHub</a>
+            <a class="work-card-link" href="https://hub.docker.com/r/cgenomics/karyon" target="_blank"
+              rel="noopener noreferrer">DockerHub</a>
+          </article>
+
+
+          <!-- MeTaPhOrs -->
+          <article class="work-card">
+            <div class="work-card-header">
+              <span class="work-card-title">MeTaPhOrs 2.5</span>
+              <span class="work-card-year">2022</span>
+            </div>
+            <div class="work-card-tags">
+              <span class="tag">Phylogenomics</span>
+              <span class="tag">Meta-score calculation</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Python</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">Docker</span>
+              <span class="tag">FastAPI</span>
+            </div>
+            <div class="work-card-section">
+              <strong>Problem</strong>
+              Metadatabases of orthologues at scale requires
+              robust database infrastructure and smart resource allocation / utilization, a humongous task when dealing
+              with thousands of genomes and millions of trees.
+            </div>
+            <div class="work-card-section">
+              <strong>Approach</strong>
+              Backend pipeline contributions for data processing, orthologs meta-score calculation, data loading, and
+              API
+              development.
+            </div>
+            <div class="work-card-section">
+              <strong>Contribution</strong>
+              Co-lead on the database v2.5 update: table schema update, data engineering, data integrity and deployment.
+            </div>
+            <a class="work-card-link" href="https://orthology.phylomedb.org" target="_blank"
+              rel="noopener noreferrer">orthology.phylomedb.org ↗</a>
+          </article>
+
+
+          <!-- PhylomeDB  -->
+          <article class="work-card">
+            <div class="work-card-header">
+              <span class="work-card-title">PhylomeDB v5</span>
+              <span class="work-card-year">2021</span>
+            </div>
+            <div class="work-card-tags">
+              <span class="tag">Phylogenomics</span>
+              <span class="tag">Tree visualization</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Python</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">HTML</span>
+              <span class="tag">Docker</span>
+              <span class="tag">FastAPI</span>
+            </div>
+            <div class="work-card-section">
+              <strong>Problem</strong>
+              Genome-wide phylome construction at scale requires
+              robust database infrastructure, solid tree visualization and automated tree-building workflows.
+            </div>
+            <div class="work-card-section">
+              <strong>Approach</strong>
+              Backend pipeline contributions for tree construction, data loading, and database optimization; frontend
+              development for interactive tree visualization and user interface; containerised deployment as a community
+              resource.
+            </div>
+            <div class="work-card-section">
+              <strong>Contribution</strong>
+              First author on PhylomeDB <em>NAR</em> publications (2021); contributed data
+              engineering, database optimization, containerisation, and deployment.
+            </div>
+            <a class="work-card-link" href="https://doi.org/10.1093/nar/gkab966" target="_blank"
+              rel="noopener noreferrer">Paper</a>
+            <a class="work-card-link" href="https://phylomedb.org" target="_blank" rel="noopener noreferrer">
+              phylomedb.org ↗</a>
+          </article>
+
+        </div><!-- /work-grid -->
+      </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- COLLABORATION GRAPH                                     -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section id="graph-section" aria-labelledby="graph-heading">
+      <div class="container--wide">
+        <h2 id="graph-heading">COLLABORATION NETWORK<br> // [WARNING] PRIVACY VIOLATION //</h2>
+        <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin-bottom:var(--space-8);max-width:65ch;">
+          Force-directed graph of publications and co-authors derived from Google Scholar. The closer two nodes are, the
+          more collaborations they represent.
+          Drag nodes to explore. Click a <span style="color:#4fc3f7;">paper node</span>
+          to load its metadata in the panel.
+        </p>
+
+        <div class="graph-layout">
+          <!-- Graph canvas -->
+          <div>
+            <div id="collab-graph" role="img" aria-label="Co-authorship network graph"></div>
+            <div class="graph-legend" style="margin-top:var(--space-4);">
+              <div class="legend-item">
+                <div class="legend-dot" style="background:#39ff14;"></div>
+                <span>Diego Fuentes-Palacios (me)</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-dot" style="background:#4fc3f7;"></div>
+                <span>Publication</span>
+              </div>
+              <div class="legend-item">
+                <div class="legend-dot" style="background:#7aff4a;"></div>
+                <span>Co-author</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Paper detail panel -->
+          <div>
+            <div id="paper-panel" aria-live="polite" aria-label="Paper details">
+              <p class="panel-empty">// click a paper node to view metadata</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <!-- NOW / NEXT                                              -->
+    <!-- ═══════════════════════════════════════════════════════ -->
+    <section id="now" aria-labelledby="now-heading">
+      <div class="container">
+        <h2 id="now-heading">NOW &amp; NEXT</h2>
+
+        <div class="now-grid">
+          <div class="now-block">
+            <h3>Currently Working On</h3>
+            <ul>
+              <li>
+                Spondyloarthritis project — harmonising multi-cohort GWAS
+                summary statistics, evaluating imputation quality, and building
+                clinically applicable risk models.
+              </li>
+              <li>
+                Iterating on GenLit — improving NER recall for variant and extraction, and expanding coverage to other
+                AI APIs for literature synthesis and evidence aggregation.
+              </li>
+              <li>
+                Exploring LLM-assisted literature synthesis for structured
+                evidence aggregation in rheumatological disease genomics.
+              </li>
+            </ul>
+          </div>
+
+          <div class="now-block">
+            <h3>Open To</h3>
+            <ul>
+              <li>
+                Research collaborations in rheumatological or autoimmune genomics.
+              </li>
+              <li>
+                Bioinformatics engineer or computational scientist roles in
+                academic medical centres, biotech, or precision medicine companies.
+              </li>
+              <li>
+                Open-source contributions to genomics tooling, clinical NLP
+                frameworks, or scientific workflow infrastructure.
+              </li>
+              <li>
+                Talks, seminars, or workshop sessions on reproducible genomics
+                pipelines, methodology, or biomedical text mining.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ───────────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <p>
+        Diego Fuentes Palacios ·
+        <a href="https://github.com/Dfupa" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/dfupa" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+        <a href="https://orcid.org/0000-0002-9977-6786" target="_blank" rel="noopener noreferrer">ORCID</a> ·
+        <a href="https://scholar.google.com/citations?user=9WWxbrYAAAAJ" target="_blank"
+          rel="noopener noreferrer">Scholar</a>
+        <br>
+        // Built with plain HTML/CSS/JS + D3.js · No frameworks harmed in the making //
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
