@@ -1,18 +1,18 @@
-# dfupa-portfolio
+# dfupa.github.io
 
 Personal academic and professional portfolio site for **Diego Fuentes Palacios** ([@Dfupa](https://github.com/Dfupa)).
-
-Dark, Matrix-inspired cogitator terminal aesthetic built with plain **HTML / CSS / JavaScript** and **D3.js** — no frameworks, no build step required.
 
 ---
 
 ## Repository Structure
 
 ```
-dfupa-portfolio/
+dfupa.github.io/
 ├── index.html             ← Single-page site (all sections)
 ├── styles.css             ← Full design system: dark theme, Roboto Mono, cogitator headings
 ├── script.js              ← D3.js collaboration network graph logic
+├── assets/
+│   └── default.png        ← Default image
 ├── data/
 │   └── publications.json  ← Publication metadata + graph nodes/edges (edit manually)
 └── README.md              ← This file
@@ -26,7 +26,7 @@ No build step needed. Serve the root directory with any static server:
 
 ```bash
 # Python 3 (simplest)
-cd dfupa-portfolio
+cd dfupa.github.io
 python -m http.server 8080
 # → open http://localhost:8080
 ```
@@ -96,10 +96,6 @@ Save the file — the graph reloads automatically on next page load.
 4. Click **Save**.
 5. After ~60 seconds, your site will be live at:
    ```
-   https://dfupa.github.io/dfupa-portfolio/
-   ```
-   or if you rename the repo to `dfupa.github.io`, at:
-   ```
    https://dfupa.github.io/
    ```
 
@@ -122,11 +118,11 @@ If you're on the free plan, either:
 
 ```bash
 # 1. Create the repo on GitHub (private)
-#    → github.com/new → name: dfupa-portfolio → Private → Create
+#    → github.com/new → name: dfupa.github.io → Private → Create
 
 # 2. Clone locally
-git clone https://github.com/Dfupa/dfupa-portfolio.git
-cd dfupa-portfolio
+git clone https://github.com/Dfupa/dfupa.github.io.git
+cd dfupa.github.io
 
 # 3. Copy the generated files here:
 #    index.html, styles.css, script.js, data/publications.json, README.md
@@ -162,5 +158,3 @@ git push origin main
 - **No build tools** — open and edit directly, serve instantly
 
 ---
-
-*// COGITATOR ONLINE — DATA STREAM ACTIVE*
