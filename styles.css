@@ -879,3 +879,110 @@ footer a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* ── Easter egg popups ───────────────────────────────────────── */
+
+.easter-egg-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9000;
+}
+
+.easter-egg-modal {
+  max-width: min(420px, 90vw);
+  padding: var(--space-6);
+  background: radial-gradient(circle at 10% 0%, rgba(57, 255, 20, 0.15), transparent 55%),
+    var(--color-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-accent);
+  box-shadow: 0 0 32px rgba(57, 255, 20, 0.55);
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.easter-egg-modal--glitch {
+  animation: easter-glitch 750ms infinite;
+}
+
+.easter-egg-title {
+  font-size: var(--text-lg);
+  color: var(--color-accent-soft);
+  text-shadow: 0 0 12px rgba(57, 255, 20, 0.7);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  line-height: 1.4;
+  margin-bottom: var(--space-4);
+}
+
+.easter-egg-gif {
+  max-width: min(260px, 70vw);
+  margin: 0 auto var(--space-4);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 0 18px rgba(57, 255, 20, 0.35);
+}
+
+.easter-egg-subtext {
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin-top: var(--space-2);
+}
+
+/* Glitchy border / chromatic aberration */
+.easter-egg-modal--glitch::before,
+.easter-egg-modal--glitch::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+.easter-egg-modal--glitch::before {
+  border: 1px solid rgba(255, 0, 128, 0.55);
+  transform: translate(2px, -2px);
+}
+
+.easter-egg-modal--glitch::after {
+  border: 1px solid rgba(0, 200, 255, 0.55);
+  transform: translate(-2px, 2px);
+}
+
+@keyframes easter-glitch {
+  0% {
+    transform: translate(0, 0);
+    filter: hue-rotate(0deg);
+  }
+
+  20% {
+    transform: translate(-2px, 1px);
+  }
+
+  40% {
+    transform: translate(2px, -1px);
+    filter: hue-rotate(10deg);
+  }
+
+  60% {
+    transform: translate(-1px, 2px);
+  }
+
+  80% {
+    transform: translate(1px, -2px);
+    filter: hue-rotate(-8deg);
+  }
+
+  100% {
+    transform: translate(0, 0);
+    filter: hue-rotate(0deg);
+  }
+}

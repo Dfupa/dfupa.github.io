@@ -7,14 +7,14 @@
 
   // ── Node colors ────────────────────────────────────────────────
   const NODE_COLORS = {
-    author:   '#39ff14',   // neon green  — me
-    paper:    '#4fc3f7',   // cyan-blue   — papers
+    author: '#39ff14',   // neon green  — me
+    paper: '#4fc3f7',   // cyan-blue   — papers
     coauthor: '#7aff4a',   // soft green  — collaborators
   };
 
   const NODE_RADIUS = {
-    author:   20,
-    paper:    13,
+    author: 20,
+    paper: 13,
     coauthor: 9,
   };
 
@@ -30,7 +30,7 @@
   }
   function moveTooltip(event) {
     tooltip.style.left = (event.pageX + 14) + 'px';
-    tooltip.style.top  = (event.pageY - 28) + 'px';
+    tooltip.style.top = (event.pageY - 28) + 'px';
   }
   function hideTooltip() {
     tooltip.style.opacity = '0';
@@ -62,7 +62,7 @@
       const pubs = data.publications;
 
       const container = document.getElementById('collab-graph');
-      const W = container.clientWidth  || 600;
+      const W = container.clientWidth || 600;
       const H = container.clientHeight || 520;
 
       // Deep-copy so d3 can mutate
@@ -71,7 +71,7 @@
 
       const svg = d3.select('#collab-graph')
         .append('svg')
-        .attr('width',  W)
+        .attr('width', W)
         .attr('height', H);
 
       // Subtle glow filter
@@ -135,7 +135,7 @@
         )
         .on('mouseover', (event, d) => showTooltip(event, d.label))
         .on('mousemove', moveTooltip)
-        .on('mouseout',  hideTooltip)
+        .on('mouseout', hideTooltip)
         .on('click', (event, d) => {
           event.stopPropagation();
           if (d.type === 'paper') {
@@ -179,4 +179,127 @@
       document.getElementById('collab-graph').innerHTML =
         '<p style="color:#7aab7a;padding:1rem;font-size:0.75rem">// graph data unavailable</p>';
     });
+})();
+
+// ===================================================================
+// whte_rbt
+// ===================================================================
+
+(function () {
+  const headshot = document.querySelector('.hero-headshot');
+  if (!headshot) return;
+
+  let clickCount = 0;
+  let stage = 0; // 0: nada, 1: primer popup, 2: segundo, 3: lock final
+
+  const FINAL_GIF_URL = './assets/whte_rbt.gif';
+  const LAUGH_SOUND_URL = './assets/evil_laugh.mp3';
+  let laughAudio = null;
+
+  function createOverlay(options) {
+    const {
+      message,
+      subtext,
+      glitch = false,
+      escapable = true,
+      withGif = false,
+      withLaugh = false,
+    } = options || {};
+
+    const overlay = document.createElement('div');
+    overlay.className = 'easter-egg-overlay';
+
+    const modal = document.createElement('div');
+    modal.className = 'easter-egg-modal';
+    if (glitch) {
+      modal.classList.add('easter-egg-modal--glitch');
+    }
+
+    const title = document.createElement('div');
+    title.className = 'easter-egg-title';
+    title.innerHTML = message || '';
+    modal.appendChild(title);
+
+    if (withGif) {
+      const img = document.createElement('img');
+      img.className = 'easter-egg-gif';
+      img.src = FINAL_GIF_URL;
+      img.alt = 'Glitched warning animation';
+      modal.appendChild(img);
+    }
+
+    if (subtext) {
+      const sub = document.createElement('div');
+      sub.className = 'easter-egg-subtext';
+      sub.textContent = subtext;
+      modal.appendChild(sub);
+    }
+
+    if (escapable) {
+      overlay.addEventListener('click', function (event) {
+        if (event.target === overlay) {
+          overlay.remove();
+        }
+      });
+
+      modal.addEventListener('click', function (event) {
+        event.stopPropagation();
+      });
+    }
+
+    overlay.appendChild(modal);
+    document.body.appendChild(overlay);
+
+    if (withLaugh) {
+      try {
+        if (!laughAudio) {
+          laughAudio = new Audio(LAUGH_SOUND_URL);
+          laughAudio.preload = 'auto';
+        }
+        laughAudio.currentTime = 0;
+        laughAudio.play().catch(function () {
+        });
+      } catch (e) {
+        console.warn('Could not play laugh audio', e);
+      }
+    }
+  }
+
+  headshot.addEventListener('click', function () {
+    clickCount += 1;
+
+    if (clickCount >= 5 && stage === 0) {
+      stage = 1;
+      clickCount = 0;
+      createOverlay({
+        message: 'Mind the pointer please!',
+        escapable: true,
+      });
+      return;
+    }
+
+    if (clickCount >= 5 && stage === 1) {
+      stage = 2;
+      clickCount = 0;
+      createOverlay({
+        message: 'Last warning mate...<br>St0p d0!ng th4t!',
+        glitch: true,
+        escapable: true,
+      });
+      return;
+    }
+
+    if (clickCount >= 5 && stage === 2) {
+      stage = 3;
+      clickCount = 0;
+      createOverlay({
+        message: 'A█ █H █H█<br>Y0U D!DN█T S4Y TH3 M4G1C W█RD',
+        subtext: 'whte_rbt.obj :: ACCESS DENIED',
+        glitch: true,
+        escapable: false,
+        withGif: true,
+        withLaugh: true,
+      });
+    }
+  });
 })();
